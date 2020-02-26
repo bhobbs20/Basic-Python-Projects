@@ -1,6 +1,7 @@
-my_sentence = "loves the color"
-color_list = ['red', 'blue', 'yellow', 'black', 'teal', 'purple', 'green']
 
+my_sentence = "loves the color"
+
+color_list = ['red', 'blue', 'yellow', 'black', 'teal', 'purple', 'green']
 
 def colorFunc(name):
     my_list = []

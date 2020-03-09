@@ -1,8 +1,9 @@
 from django.shortcuts import render
+from products.models import Product
 
 
 def home(request):
-    products = ["Cherries", "Apples", "Oranges", "Strawberries", "Pears", "Watermelons"]
+    products = Product.objects.all()
     context = {
         'products': products,
     }
